@@ -1,0 +1,31 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #F5F5EC;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #8C0805;
+    
+}
+
+img{
+    width: 200px;
+    border-radius: 30px;
+}
+
+.parráfoPrueba{
+    font-size: 30px;  
+}
+
+a{
+    font-style: italic;
+    color: #8C0805 ;
+    
+
+}
+
+.container{
+    display: inline-block;
+
+}
