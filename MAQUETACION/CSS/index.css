@@ -1,3 +1,6 @@
+/* GENERALES */
+
+
 * {
     padding: 0;
     margin: 0;
@@ -13,7 +16,7 @@ img {
 
 h2 {
     font-weight: 600;
-    size: 25px;
+    size: 32px;
 }
 
 h3{
@@ -26,7 +29,7 @@ p {
 }
 
 a{
-    color: white;
+   
     text-decoration: none;
 }
 
@@ -109,13 +112,14 @@ a{
     
 }
 
-/* C */
+
 
 .c__cards{
     display: flex;
     padding: 16px 0;
     flex-wrap: wrap;
     gap: 16px;
+   
 }
 
 
@@ -126,12 +130,111 @@ a{
     gap: 16px;
     padding: 16px;
     flex: 1 1 300px;
+    background-color: white;
+   
 }
 
 
 .c__button{
     background-color: black;
-   
-
+    border: 1px solid white;
+    border-radius: 73px;
+    width: 128px;
+    height: 50px ;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 16px 32px;
+    color: white;
 
 }
+
+
+/* D */
+
+
+.d{
+    padding: 48px 0;
+    background-color: #fbfbfb;
+
+}
+
+.d__block{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+
+.d__header{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   gap: 16px;
+    
+}
+
+.d__header h2 {
+  flex: 1 1 300px;
+}
+
+.d__btn{
+    background-color: black;
+    color: white;
+    border-radius: 73px;
+    padding: 16px 32px;
+    width:160px ;
+    height: 50px ;
+    font-size: 15px;
+}
+
+
+
+.d__cards{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px 0;
+    flex-wrap: wrap;
+
+}
+
+.d__card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 300px;
+    background-color: white;
+
+}
+
+.d__footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+   
+}
+
+.d__link{
+    color: black;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.d__btn:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 162px;
+    height: 50px ;
+}
+
+
+
+
+
