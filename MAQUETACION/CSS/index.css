@@ -6,12 +6,12 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    
+
 }
 
 img {
     width: 100%;
-   
+
 }
 
 h2 {
@@ -19,7 +19,7 @@ h2 {
     size: 32px;
 }
 
-h3{
+h3 {
     font-size: 19px;
 }
 
@@ -28,9 +28,21 @@ p {
     size: 15px;
 }
 
-a{
-   
+a {
+
     text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    background-color: #000;
+    border: 1px solid white;
+    border-radius: 73px;
+    align-self: start;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 16px 32px;
+    color: white;
 }
 
 /* A */
@@ -46,9 +58,9 @@ a{
     gap: 48px;
     align-items: center;
     max-width: 920px;
-    margin: 0 auto;  
+    margin: 0 auto;
     flex-wrap: wrap;
-     
+
 
 }
 
@@ -59,7 +71,7 @@ a{
     gap: 16px;
     padding: 16px;
     flex: 1 1 300px;
-    
+
 }
 
 .a__image {
@@ -69,82 +81,82 @@ a{
 
 /* B */
 
-.b{
+.b {
     padding: 48px 0;
     background-color: #fbfbfb;
 }
 
-.b__block{
+.b__block {
     display: flex;
     gap: 16px;
-    padding: 16px;  
+    padding: 16px;
     max-width: 920px;
     margin: 0 auto;
-    flex-wrap: wrap; /*Esto para decirle al bloque que sea responsive*/
+    flex-wrap: wrap;
+    /*Esto para decirle al bloque que sea responsive*/
 }
 
 
-.b__card{
+.b__card {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 16px ;
+    padding: 16px;
     background-color: white;
-    flex: 1 1 285px; /*Esto para darle a entender a cada card que hasta este punto de la medida deba aplicar el flex-wrap*/
-    
-    
+    flex: 1 1 285px;
+    /*Esto para darle a entender a cada card que hasta este punto de la medida deba aplicar el flex-wrap*/
+
+
 }
 
 /* C */
 
-.c{
+.c {
     padding: 48px 0;
     background-color: #fbfbfb;
 }
 
-.c__block{
+.c__block {
     display: flex;
     flex-direction: column;
     padding: 16px;
     gap: 32px;
     max-width: 920px;
     margin: 0 auto;
-    
+
 }
 
 
 
-.c__cards{
+.c__cards {
     display: flex;
     padding: 16px 0;
     flex-wrap: wrap;
     gap: 16px;
-   
+
 }
 
 
 
-.c__card{
-    display: flex;  
+.c__card {
+    display: flex;
     flex-direction: column;
     gap: 16px;
     padding: 16px;
     flex: 1 1 300px;
     background-color: white;
-   
+
 }
 
 
-.c__button{
-    background-color: black;
-    border: 1px solid white;
-    border-radius: 73px;
+
+
+.c__button:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
     width: 128px;
-    height: 50px ;
-    font-size: 14px;
-    cursor: pointer;
-    padding: 16px 32px;
-    color: white;
+    height: 50px;
 
 }
 
@@ -152,13 +164,13 @@ a{
 /* D */
 
 
-.d{
+.d {
     padding: 48px 0;
     background-color: #fbfbfb;
 
 }
 
-.d__block{
+.d__block {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -168,31 +180,20 @@ a{
 
 }
 
-.d__header{
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: space-between;
-   gap: 16px;
-    
+.d__header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 16px;
+
 }
 
 .d__header h2 {
-  flex: 1 1 300px;
-}
-
-.d__btn{
-    background-color: black;
-    color: white;
-    border-radius: 73px;
-    padding: 16px 32px;
-    width:160px ;
-    height: 50px ;
-    font-size: 15px;
+    flex: 1 1 300px;
 }
 
 
-
-.d__cards{
+.d__cards {
     display: flex;
     flex-direction: row;
     gap: 16px;
@@ -201,7 +202,7 @@ a{
 
 }
 
-.d__card{
+.d__card {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -211,30 +212,135 @@ a{
 
 }
 
-.d__footer{
+.d__footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 16px;
-   
+
 }
 
-.d__link{
+.d__link {
     color: black;
     font-size: 19px;
     font-weight: 500;
 }
 
-.d__btn:hover{
+.btn:hover {
     color: black;
     background-color: white;
     border: 1px solid black;
-    width: 162px;
-    height: 50px ;
+
 }
 
+/* E */
 
+.e {
+    padding: 48px 0;
+    background-color: #fbfbfb;
+}
 
+.e__block {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px;
 
+}
 
+.e__content {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px 0;
+    flex-wrap: wrap;
+
+}
+
+.e__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    gap: 16px;
+    padding: 16px;
+
+}
+
+.e__cards {
+    flex: 1 1 300px;
+     
+}
+
+/* F */
+
+.f{
+    padding: 48px 0;
+    background-color: #fbfbfb;
+}
+
+.f__block{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px ;
+}
+
+.f__cards{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px 0;
+   
+    
+}
+
+.f__card{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 300px;
+ 
+}
+
+.f__content{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px 0;
+    flex-wrap: wrap;
+
+}
+
+.f__texts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    gap: 16px;
+    padding: 16px;
+
+}
+
+.f__text{
+   flex: 1 1 300px; 
+}
+
+.f__footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.row__btn{
+    display: inline-block;
+    width: 100%;
+    padding: 16px 32px;
+    background-color: #000;
+    text-align: center;    
+}
