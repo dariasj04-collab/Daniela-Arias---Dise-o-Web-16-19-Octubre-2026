@@ -368,7 +368,7 @@ a {
      /* Coloca las tarjetas en horizontal. */
     gap: 16px;
     padding: 16px 0;
-    background-color: white;
+    background-color:#fbfbfb;
     flex-wrap: wrap;
     /* Si los elementos no caben en una fila, pueden pasar a otra línea. */
 
@@ -388,6 +388,7 @@ a {
     gap: 16px;
     padding: 16px;
     flex: 1 1 250px;
+    background-color: #ffffff;
 
 }
 
@@ -397,7 +398,7 @@ a {
     gap: 16px;
     padding: 16px 0;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: #ffffff;
 
 }
 
@@ -418,4 +419,112 @@ a {
 .g__icons{
     width: 19px;
 }
+
+/* H */
+
+.h{
+    padding: 48px 0;
+    background-color: #fbfbfb;
+}
+
+
+.h__block{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.h__content{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px 0;
+    
+    flex-wrap: wrap;
+}
+
+.h__left{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #ffffff;
+    flex: 1 1 300px;
+   
+    
+}
+
+.h__icons{
+    width: 13px;
+}
+
+.h__right{
+    gap: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1 1 300px;
+    
+    
+
+}
+
+.h__footer{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px 0;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+
+}
+
+.h__texts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+    flex: 1;
+    justify-content: space-between;
+
+}
+
+.h__card-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+.h__cards {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #ffffff;
+}
+
+.h__card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.h__card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+   
+   
+}
+
+
+
+
 
