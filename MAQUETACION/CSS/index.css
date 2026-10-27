@@ -332,10 +332,7 @@ a {
    flex: 1 1 300px; 
 }
 
-.f__footer{
-    display: flex;
-    flex-direction: row;
-}
+
 
 .row__btn{
     display: inline-block;
@@ -344,3 +341,81 @@ a {
     background-color: #000;
     text-align: center;    
 }
+
+
+
+/* G */
+
+.g{
+    padding: 48px 0;
+    background-color: #fbfbfb;
+}
+
+.g__block{
+    display: flex;
+    flex-direction: column;
+    /* Coloca los elementos hijos en vertical, uno debajo de otro. */
+    gap: 16px;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px ;
+
+}
+
+.g__cards{
+    display: flex;
+    flex-direction: row;
+     /* Coloca las tarjetas en horizontal. */
+    gap: 16px;
+    padding: 16px 0;
+    background-color: white;
+    flex-wrap: wrap;
+    /* Si los elementos no caben en una fila, pueden pasar a otra línea. */
+
+}
+
+.g__card-header{
+    display: flex;
+    flex-direction: row;
+    /* Coloca el subtítulo y el icono en horizontal. */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.g__card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 250px;
+
+}
+
+.g__content{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px 0;
+    flex-wrap: wrap;
+    background-color: white;
+
+}
+
+.g__texts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+    flex: 1;
+
+}
+
+.g__text{
+    flex: 1 1 300px; 
+}
+
+.g__icons{
+    width: 19px;
+}
+
