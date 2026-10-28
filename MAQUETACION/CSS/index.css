@@ -423,19 +423,17 @@ a {
 
 .h__content{
     display: flex;
-    flex-direction: row;
     gap: 16px;
     padding: 16px 0;
-    
     flex-wrap: wrap;
 }
 
 .h__left{
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    background-color: #ffffff;
-    flex: 1 1 300px;   
+    background-color: #f0f0f0;
+    flex: 1 1 300px;  
+    gap: 16px; 
 }
 
 
@@ -444,11 +442,11 @@ a {
     flex-direction: column;
     gap: 16px;  
     padding: 24px;
+    
+    
 }
 
 .h__right{
-    gap: 16px;
-   
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -465,10 +463,10 @@ a {
 
 .h__item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 16px;
     padding: 24px;
-    background-color: #ffffff;
+    background-color: #f0f0f0;
 }
 
 
