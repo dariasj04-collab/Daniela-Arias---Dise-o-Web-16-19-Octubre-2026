@@ -116,6 +116,8 @@ p{
     margin: 0 auto;
 }
 
+/* HEADER */
+ 
 .header{
     padding: var(--space-md);
     background-color: var(--color-background);
@@ -141,6 +143,32 @@ p{
     align-items: center;
     list-style: none;
     gap: var(--space-lg);
+}
+
+/* HERO */
+
+.hero__block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--space-md);
+
+}
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    
+
+}
+.hero__links{
+   
+   
+
+}
+.hero__image{
+
 }
 
 
