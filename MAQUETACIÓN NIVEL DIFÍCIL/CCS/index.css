@@ -118,6 +118,11 @@ a {
     flex-direction: column;
 }
 
+.b__texts{
+    padding: 16px;
+    gap: 24px;
+}
+
 
 
 
