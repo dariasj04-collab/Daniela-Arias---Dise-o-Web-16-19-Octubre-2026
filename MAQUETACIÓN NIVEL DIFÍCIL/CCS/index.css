@@ -1,0 +1,45 @@
+/* GENERALES */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+
+}
+
+h2 {
+    font-weight: 600;
+    size: 32px;
+}
+
+h3 {
+    font-size: 19px;
+}
+
+p {
+    font-weight: 400;
+    size: 15px;
+}
+
+a {
+
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    background-color: #000;
+    border: 1px solid white;
+    border-radius: 73px;
+    align-self: start;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 16px 32px;
+    color: white;
+}

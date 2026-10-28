@@ -392,33 +392,17 @@ a {
 
 }
 
-.g__content{
+.g__footer{
     display: flex;
-    flex-direction: row;
-    gap: 16px;
-    padding: 16px 0;
-    flex-wrap: wrap;
-    background-color: #ffffff;
-
-}
-
-.g__texts{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 16px;
-    padding: 16px;
-    flex: 1;
-
-}
-
-.g__text{
-    flex: 1 1 300px; 
+    justify-content: space-between;
+    align-items: center;
 }
 
 .g__icons{
     width: 19px;
 }
+
+
 
 /* H */
 
@@ -451,78 +435,73 @@ a {
     flex-direction: column;
     gap: 16px;
     background-color: #ffffff;
-    flex: 1 1 300px;
-   
-    
+    flex: 1 1 300px;   
 }
 
-.h__icons{
-    width: 13px;
+
+.h__card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;  
+    padding: 24px;
 }
 
 .h__right{
     gap: 16px;
-    padding: 24px;
+   
     display: flex;
     flex-direction: column;
     gap: 16px;
     flex: 1 1 300px;
-    
-    
-
-}
-
-.h__footer{
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    padding: 16px 0;
-    flex-wrap: wrap;
-    background-color: #ffffff;
-
-}
-
-.h__texts{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 16px;
-    padding: 16px;
-    flex: 1;
-    justify-content: space-between;
-
 }
 
 .h__card-right {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    
+    flex: 1;   
 }
 
-.h__cards {
+
+.h__item {
     display: flex;
-    flex-direction: row;
+    align-items: flex-start;
     gap: 16px;
-    justify-content: space-between;
     padding: 24px;
     background-color: #ffffff;
 }
+
 
 .h__card-content{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    padding: 16px;
+    
 }
 
-.h__card{
+
+.h__footer{
     display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 32px;
-   
-   
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 16px;
+
 }
+
+
+.h__icons{
+    width: 13px;
+}
+
+
+
+
+
+
+
+
 
 
 
