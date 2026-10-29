@@ -6,6 +6,7 @@
     --color-grey:#606060; 
     --color-light-grey:#f0f0f0;
     --color-background:#fbfbfb;
+    --color-border:#DEDEDE;
 
 /* My Spaces */
 
@@ -117,6 +118,7 @@ p{
 }
 
 /* HEADER */
+
  
 .header{
     padding: var(--space-md);
@@ -145,33 +147,107 @@ p{
     gap: var(--space-lg);
 }
 
+
+
+
+
+
 /* HERO */
+
+.hero{
+    padding: var(--space-xxl) var(--space-md) ;
+    background-color: var(--color-background);
+}
+
+
 
 .hero__block{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: var(--space-xl) ;
+}
+
+.hero__top{
+    display: flex;
+    gap: var(--space-xl);
     align-items: center;
-    gap: var(--space-md);
+    flex-wrap: wrap;
 
 }
+
 
 .hero__content{
     display: flex;
     flex-direction: column;
     gap: var(--space-md);
-    
+    flex: 1 1 300px;
 
 }
+
 .hero__links{
-   
-   
-
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-xxs) 0 0 0;
 }
+
+.hero__footer{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--space-md) 0 0 0;
+    border-top: solid 1px var(--color-border)
+}
+
 .hero__image{
-
+    flex: 1 1 300px;
 }
 
 
+/* SERVICES */
+
+.services{
+    padding: var(--space-xxl) var(--space-md) ;
+    background-color: var(--color-background);
+
+}
+.services__block{
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px ;
+
+}
+.services__header{
+
+}
+.services__cards{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px 0;
+    flex-wrap: wrap;
+   
+
+}
+.services__card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 250px;
+    background-color: var(--color-light-grey);
+}
+
+.services__header{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--space-md) 0 0 0;
+   
+}
+            
 
 
 
