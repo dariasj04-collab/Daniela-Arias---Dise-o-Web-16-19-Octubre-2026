@@ -206,47 +206,46 @@ p{
 /* SERVICES */
 
 .services{
-    padding: var(--space-xxl) var(--space-md) ;
+    padding: var(--space-xl) var(--space-md) ;
     background-color: var(--color-background);
 
 }
 .services__block{
     display: flex;
     flex-direction: column;
-
-    gap: 16px;
-    max-width: 920px;
-    margin: 0 auto;
-    padding: 16px ;
+    gap: var(--space-lg);
+    
 
 }
 .services__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 .services__cards{
     display: flex;
-    flex-direction: row;
-    gap: 16px;
-    padding: 16px 0;
+    gap: var(--space-xs);
     flex-wrap: wrap;
-   
-
 }
+
 .services__card{
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    padding: 16px;
+    gap: var(--space-md);
+    padding: var(--space-lg);
     flex: 1 1 250px;
     background-color: var(--color-light-grey);
 }
 
-.services__header{
+.services__text{
     display: flex;
-    justify-content: space-between;
-    padding: var(--space-md) 0 0 0;
-   
+    flex-direction: column;
+    gap: var(--space-xs);
+
 }
+
+
             
 
 
