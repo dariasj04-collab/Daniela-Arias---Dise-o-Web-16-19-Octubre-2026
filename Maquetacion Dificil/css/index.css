@@ -245,7 +245,51 @@ p{
 
 }
 
+/* Ideas */
 
+.ideas{
+    padding: var(--space-xl) var(--space-md) ;
+    background-color: var(--color-background);
+
+}
+
+.ideas__block{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+    
+}
+
+.ideas__header{
+    gap: var(--space-xs);
+}
+
+.ideas__cards{
+    display: flex;
+    gap: var(--space-lg);
+    flex-wrap: wrap;
+
+}
+.ideas__card{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    flex: 1 1 250px;
+}
+
+.ideas__card-text{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+
+}
+
+.ideas__card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
             
 
 
