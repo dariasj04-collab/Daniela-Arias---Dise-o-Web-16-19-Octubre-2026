@@ -17,6 +17,10 @@
 --space-xl:48px;
 --space-xxl:64px;
 
+/* Grid */
+
+--grid-2col: repeat(auto-fit, minmax(340px, 1fr));
+
 }
 
 
@@ -361,6 +365,54 @@ p{
 
 }
 
+/* Trabajo */
+
+
+.trabajo{
+    padding: var(--space-xxl) var(--space-md) ;
+    background-color: var(--color-background);
+}
+
+.trabajo__block{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+ 
+
+
+
+}
+.trabajo__grid{
+    display: grid;
+    grid-template-columns: var(--grid-2col);
+    gap: var(--space-xs);
+
+}
+.trabajo__card{
+    display: flex;
+    padding: var(--space-md);
+    background-color: var(--color-light-grey);
+    gap: var(--space-md);
+
+}
+.trabajo__card-content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs) ;
+}
+
+.a{
+    grid-row: span 2;
+    padding: 0;
+    flex-direction: column;
+    gap: 0;
+}
+
+
+.trabajo__card.a .trabajo__card-content{
+    padding: var(--space-lg);
+}
+
 
 /* Contact */
 
@@ -369,7 +421,7 @@ padding: var(--space-xl) var(--space-md);
 background-color: var(--color-background);
 }
 
-.contact__block {
+.footer__block {
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -378,7 +430,7 @@ background-color: var(--color-light-grey);
 padding: var(--space-xl);
 }
 
-.contact__header-texts {
+.footer__contact-content {
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -388,7 +440,7 @@ flex: 0 1 65%;
 
 
 
-.contact__header-links {
+.footer__contact-links {
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -417,21 +469,21 @@ gap: var(--space-md);
 
 }
 
-.footer__block-logo{
+.footer__foot-logo{
     display: flex;
     flex-direction: column;
     gap: var(--space-xxs);
 }
 
 
-.footer__menu{
+.footer__foot-nav{
     display: flex;
     align-items: center;
     list-style: none;
     gap: var(--space-lg);
 }
 
-.footer__menu i {
+.footer__foot-nav i {
     margin-left: 8px;
 }
 
