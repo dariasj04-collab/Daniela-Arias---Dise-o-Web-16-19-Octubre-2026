@@ -64,12 +64,21 @@ h3{
     font-size: 19px;
     font-weight: 500;
 }
+ul{
+    list-style: none;
+}
 
 
 p{
     
     font-size: 15px;
     font-weight: 400;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 .big{
@@ -417,14 +426,13 @@ p{
 /* Contact Footer */
 
 .footer{
-    padding: var(--space-xl) var(--space-md);
+    padding: 0 var(--space-md);
     background-color: var(--color-background);
 }
 
 .footer__block{
     display: flex;
     flex-direction: column;
-    gap: var(--space-xl);
 }
 
 .footer__contact{
@@ -456,54 +464,43 @@ p{
     display: flex;
     flex-direction: column;
     gap: var(--space-lg);
-    padding: var(--space-xl) var(--space-lg);
-
-
+    padding: var(--space-xl) 0 var(--space-lg) 0;
 }
 
 .footer__foot-top{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+
+.footer__foot-top img{
+    max-width: 75px;
 }
 
 .footer__foot-logo{
-
     display: flex;
     flex-direction: column;
     gap: var(--space-xxs);
-
 }
 
 .footer__foot-nav{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
     gap: var(--space-lg);
-
-
 }
 
 .footer__foot-rights{
     display: flex;
     justify-content: space-between; 
     border-top: 1px solid var(--color-border);
-    padding-top: 20px;
-
-
+    padding-top: var(--space-md);
 }
+
 .footer__foot-rights-links{
-    list-style: none;
     display: flex;
-    gap: 24px;
+    gap: var(--space-md);
 }
 
-.footer__foot-nav li{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
+
 
 
 
