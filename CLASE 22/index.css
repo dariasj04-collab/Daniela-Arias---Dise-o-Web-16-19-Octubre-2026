@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(237, 237, 237) ;
+    height: 500vh;
+}
+
+section{
+    display: flex;
+    gap: 16px;
+    padding: 1rem;
+
+    background-color: white;
+    margin: 2rem auto;
+    border-radius: 5px;
+    width: fit-content;
+   
+
+}
+
+div {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+
+}
+
+.relative{
+     position: relative;
+     top: 2rem;
+     background-color: grey;
+
+}
+
+.absolute{
+    position: absolute;
+    background-color: grey;
+}
+
+.fixed{
+    background-color: grey;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+.section-big{
+   min-height: 500px;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: grey;
+}
