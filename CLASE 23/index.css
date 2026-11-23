@@ -1,0 +1,123 @@
+@keyframes move {
+    /*from de donde empieza la animación o 0%*/
+    0% {
+        background-color: coral;
+        transform: translateY(0), rotate(0); /* 0 indica la posición inicial -- X en horizontal Y en vertical*/
+        border-radius: 100%;
+      
+    }
+
+    25% {
+        background-color: coral;
+        transform: translateY(15rem) rotate(0);
+        border-radius: 100%;
+    }
+
+    50% {
+     
+        transform: translateY(-15rem) rotate(0) ; /* 0 indica la posición inicial -- X en horizontal Y en vertical*/
+        border-radius: 10%;
+        background-color: coral;
+    
+    }
+
+    75%{
+        background-color: azure;
+        border-radius: 0%;
+        transform: translateY(0) rotate(90deg);
+
+    }
+     /*to de donde empieza la animación o 100%*/
+    100% {
+        background-color: coral;
+        border-radius: 100%;
+        transform: translateY(0) rotate(90deg);
+        
+    }
+}
+
+@keyframes color {
+
+    0% {
+        background-color: azure;
+    
+    }
+
+    25% {
+        background-color: azure;
+    
+    }
+
+    50% {
+        background-color: azure;
+        
+    }
+
+     75% {
+        background-color: black;
+    
+    }
+
+     100% {
+        background-color: azure;
+      
+    }
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    animation-name: color;
+  
+    
+    animation-duration: 5s;
+    animation-iteration-count: infinite ;
+   
+}
+
+div {
+    background-color: coral;
+    min-height: 100px ;
+    width: 100px;
+    animation-name: move;
+  
+    
+    animation-duration: 5s;
+    animation-iteration-count: infinite ;
+}
+
+h1::before {
+    content: "Hola";
+    color: blue;
+}
+
+h1::after {
+    content: "Buenas noches";
+}
+
+
+
+/* Animación
+Primer animación = inicia en circulo, baja
+Segunda animación = baja el circulo
+tercera animación = se le quita el radius y se convierte en cuadrado
+cuarta = gira al estado inicial con color de degecto
+
+
+
+
+
+
+*/
